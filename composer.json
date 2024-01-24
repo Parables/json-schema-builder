@@ -1,0 +1,36 @@
+{
+    "name": "parables/json-schema-builder",
+    "description": "Never write a JSON Schema by hand. Fluently build it",
+    "type": "library",
+    "require-dev": {
+        "pestphp/pest": "^2.32",
+        "marcocesarato/php-conventional-changelog": "^1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Parables\\JsonSchemaBuilder\\": "src/"
+        }
+    },
+    "scripts": {
+        "changelog": "conventional-changelog",
+        "release": "conventional-changelog --commit",
+        "release:patch": "conventional-changelog --patch --commit",
+        "release:minor": "conventional-changelog --minor --commit",
+        "release:major": "conventional-changelog --major --commit"
+    },
+    "authors": [
+        {
+            "name": "Parables",
+            "email": "38154990+Parables@users.noreply.github.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "require": {
+        "parables/php-utils": "^0.0.1"
+    }
+}
