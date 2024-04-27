@@ -6,7 +6,7 @@ use LogicException;
 
 trait ThrowIfEmpty
 {
-    public static function throwIfEmpty(
+    private static function throwIfEmpty(
         string $value,
         string $label,
         bool $shouldThrow = true,
