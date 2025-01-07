@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "parables/php-utils": "^0.0.1"
+    "parables/php-utils": "dev-main"
   },
   "require-dev": {
     "pestphp/pest": "^2.32",
